@@ -1,8 +1,8 @@
 //%attributes = {"invisible":true}
-C_BOOLEAN:C305(ThisIs64)
-C_REAL:C285(vSize; vMinUnload; vValToFree)
-C_LONGINT:C283(vFlushPer)
-C_TEXT:C284(vCacheInfos)
+var ThisIs64 : Boolean
+var vSize; vMinUnload; vValToFree : Real
+var vFlushPer : Integer
+var vCacheInfos : Text
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
