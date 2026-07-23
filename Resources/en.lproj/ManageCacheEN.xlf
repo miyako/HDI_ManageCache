@@ -10,10 +10,6 @@
         <source>Demo</source>
         <target>Demo</target>
       </trans-unit>
-      <trans-unit id="3" resname="HDI_BtnQuit4D">
-        <source>Quit 4D</source>
-        <target>Quit 4D</target>
-      </trans-unit>
       <trans-unit id="4" resname="HDI_TxtVersionNote">
         <source>(4D v16 and above...)</source>
         <target>(4D v16 and above...)</target>
@@ -25,14 +21,6 @@
       <trans-unit id="6" resname="HDI_TxtInfoQuestion">
         <source>... get information about cache?</source>
         <target>... get information about cache?</target>
-      </trans-unit>
-      <trans-unit id="7" resname="HDI_TxtSorryWarning">
-        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
-        <target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
-      </trans-unit>
-      <trans-unit id="8" resname="HDI_TxtSorryMessage">
-        <source>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</source>
-        <target>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</target>
       </trans-unit>
       <trans-unit id="9" resname="HDI2_TabInfo">
         <source>Info</source>

@@ -10,10 +10,6 @@
         <source>Demo</source>
         <target>スタート</target>
       </trans-unit>
-      <trans-unit id="3" resname="HDI_BtnQuit4D">
-        <source>Quit 4D</source>
-        <target>終了する</target>
-      </trans-unit>
       <trans-unit id="4" resname="HDI_TxtVersionNote">
         <source>(4D v16 and above...)</source>
         <target>(4D v16 以降...)</target>
@@ -25,14 +21,6 @@
       <trans-unit id="6" resname="HDI_TxtInfoQuestion">
         <source>... get information about cache?</source>
         <target>... キャッシュ情報を取得するには?</target>
-      </trans-unit>
-      <trans-unit id="7" resname="HDI_TxtSorryWarning">
-        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
-        <target>このHDIをデザインモードで開いてはなりません。開いてしまった場合，フォームやメソッドが不完全になってしまう恐れがあります。</target>
-      </trans-unit>
-      <trans-unit id="8" resname="HDI_TxtSorryMessage">
-        <source>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</source>
-        <target>申し訳ありません。この&quot;How do I...&quot; (HDI) &#x0D;サンプルは，より新しいバージョンの4D（v16以降）で開かなければなりません。</target>
       </trans-unit>
       <trans-unit id="9" resname="HDI2_TabInfo">
         <source>Info</source>
@@ -121,7 +109,6 @@
       <trans-unit id="30" resname="AlertFlushPeriodicityUpdated">
         <source>Cache flush periodicity successfully updated</source>
         <target>キャッシュをディスクに書き込む間隔を更新しました。</target>
-      </trans-unit>
-    </body>
+      </trans-unit>    </body>
   </file>
 </xliff>
