@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 var ThisIs64 : Boolean
 var vSize; vMinUnload; vValToFree : Real
 var vFlushPer : Integer

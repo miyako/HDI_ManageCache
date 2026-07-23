@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 var $cache : Object
 
 // Available in 64-bit version only
