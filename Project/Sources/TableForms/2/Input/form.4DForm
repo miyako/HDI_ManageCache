@@ -1,0 +1,802 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerBody": 686,
+	"markerBreak": 686,
+	"markerFooter": 696,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "612pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text18": {
+					"type": "text",
+					"top": 10,
+					"left": 103,
+					"width": 409,
+					"height": 22,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"text": "Countries"
+				},
+				"vRecNum": {
+					"type": "input",
+					"top": 13,
+					"left": 528,
+					"width": 100,
+					"height": 12,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Line19": {
+					"type": "line",
+					"top": 0,
+					"left": 88,
+					"height": 686,
+					"sizingY": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 65,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 120,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 175,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 230,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 285,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 340,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Windows/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text20": {
+					"type": "text",
+					"top": 45,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "ID : "
+				},
+				"Text21": {
+					"type": "text",
+					"top": 70,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "ShortName : "
+				},
+				"Text22": {
+					"type": "text",
+					"top": 95,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Name : "
+				},
+				"Text23": {
+					"type": "text",
+					"top": 120,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Capital : "
+				},
+				"Text24": {
+					"type": "text",
+					"top": 145,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Language : "
+				},
+				"Text25": {
+					"type": "text",
+					"top": 170,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Anthem : "
+				},
+				"Text26": {
+					"type": "text",
+					"top": 195,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Currency : "
+				},
+				"Text27": {
+					"type": "text",
+					"top": 220,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "TimeZone : "
+				},
+				"Text28": {
+					"type": "text",
+					"top": 245,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "TLD : "
+				},
+				"Text29": {
+					"type": "text",
+					"top": 270,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "CallingCode : "
+				},
+				"Text30": {
+					"type": "text",
+					"top": 295,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Area : "
+				},
+				"Text31": {
+					"type": "text",
+					"top": 320,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "AreaPosition : "
+				},
+				"Text32": {
+					"type": "text",
+					"top": 345,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Inhabitants : "
+				},
+				"Text33": {
+					"type": "text",
+					"top": 370,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "InhabitantPosition : "
+				},
+				"Text34": {
+					"type": "text",
+					"top": 395,
+					"left": 115,
+					"width": 116,
+					"height": 16,
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"text": "Flag : "
+				},
+				"ID": {
+					"type": "input",
+					"top": 45,
+					"left": 236,
+					"width": 56,
+					"height": 15,
+					"dataSource": "[Countries:2]ID:1",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ShortName": {
+					"type": "input",
+					"top": 70,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]ShortName:2",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Name": {
+					"type": "input",
+					"top": 95,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]Name:3",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Capital": {
+					"type": "input",
+					"top": 120,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]Capital:4",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Language": {
+					"type": "input",
+					"top": 145,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]Language:5",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Anthem": {
+					"type": "input",
+					"top": 170,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]Anthem:6",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Currency": {
+					"type": "input",
+					"top": 195,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]Currency:7",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TimeZone": {
+					"type": "input",
+					"top": 220,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]TimeZone:8",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TLD": {
+					"type": "input",
+					"top": 245,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]TLD:9",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"CallingCode": {
+					"type": "input",
+					"top": 270,
+					"left": 236,
+					"width": 390,
+					"height": 15,
+					"dataSource": "[Countries:2]CallingCode:10",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Area": {
+					"type": "input",
+					"top": 295,
+					"left": 236,
+					"width": 56,
+					"height": 15,
+					"dataSource": "[Countries:2]Area:11",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AreaPosition": {
+					"type": "input",
+					"top": 320,
+					"left": 236,
+					"width": 56,
+					"height": 15,
+					"dataSource": "[Countries:2]AreaPosition:12",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Inhabitants": {
+					"type": "input",
+					"top": 345,
+					"left": 236,
+					"width": 56,
+					"height": 15,
+					"dataSource": "[Countries:2]Inhabitants:13",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"InhabitantPosition": {
+					"type": "input",
+					"top": 370,
+					"left": 236,
+					"width": 56,
+					"height": 15,
+					"dataSource": "[Countries:2]InhabitantPosition:14",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Flag": {
+					"type": "input",
+					"top": 395,
+					"left": 236,
+					"width": 234,
+					"height": 250,
+					"dataSource": "[Countries:2]Flag:15",
+					"dataSourceTypeHint": "picture",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"dragging": "custom",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"Text18",
+					"vRecNum",
+					"Line19"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}
