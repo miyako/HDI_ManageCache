@@ -1,126 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file datatype="plaintext" original="Project/Sources" source-language="en" target-language="ja">
+  <file datatype="plaintext" original="Project/Sources" source-language="en" target-language="en">
     <body>
       <trans-unit id="1" resname="MenuItemDemo">
         <source>Demo...</source>
-        <target>デモンストレーション...</target>
+        <target>Demo...</target>
       </trans-unit>
       <trans-unit id="2" resname="HDI_BtnDemo">
         <source>Demo</source>
-        <target>スタート</target>
+        <target>Demo</target>
       </trans-unit>
       <trans-unit id="3" resname="HDI_BtnQuit4D">
         <source>Quit 4D</source>
-        <target>終了する</target>
+        <target>Quit 4D</target>
       </trans-unit>
       <trans-unit id="4" resname="HDI_TxtVersionNote">
         <source>(4D v16 and above...)</source>
-        <target>(4D v16 以降...)</target>
+        <target>(4D v16 and above...)</target>
       </trans-unit>
       <trans-unit id="5" resname="HDI_TxtHowDoI">
         <source>How Do I...</source>
-        <target>教えて...</target>
+        <target>How Do I...</target>
       </trans-unit>
       <trans-unit id="6" resname="HDI_TxtInfoQuestion">
         <source>... get information about cache?</source>
-        <target>... キャッシュ情報を取得するには?</target>
+        <target>... get information about cache?</target>
       </trans-unit>
       <trans-unit id="7" resname="HDI_TxtSorryWarning">
         <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
-        <target>このHDIをデザインモードで開いてはなりません。開いてしまった場合，フォームやメソッドが不完全になってしまう恐れがあります。</target>
+        <target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
       </trans-unit>
       <trans-unit id="8" resname="HDI_TxtSorryMessage">
         <source>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</source>
-        <target>申し訳ありません。この&quot;How do I...&quot; (HDI) &#x0D;サンプルは，より新しいバージョンの4D（v16以降）で開かなければなりません。</target>
+        <target>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</target>
       </trans-unit>
       <trans-unit id="9" resname="HDI2_TabInfo">
         <source>Info</source>
-        <target>説明</target>
+        <target>Info</target>
       </trans-unit>
       <trans-unit id="10" resname="HDI2_TabDemo">
         <source>Demo</source>
-        <target>デモ画面</target>
+        <target>Demo</target>
       </trans-unit>
       <trans-unit id="11" resname="HDI2_LblSize">
         <source>Size:</source>
-        <target>サイズ：</target>
+        <target>Size:</target>
       </trans-unit>
       <trans-unit id="12" resname="HDI2_BtnUpdate">
         <source>Update</source>
-        <target>更新</target>
+        <target>Update</target>
       </trans-unit>
       <trans-unit id="13" resname="HDI2_BtnGet">
         <source>Get</source>
-        <target>取得</target>
+        <target>Get</target>
       </trans-unit>
       <trans-unit id="14" resname="HDI2_BtnFlush">
         <source>Flush</source>
-        <target>実行</target>
+        <target>Flush</target>
       </trans-unit>
       <trans-unit id="15" resname="HDI2_LblCacheFlushTitle">
         <source>Cache Flush (write on disk)</source>
-        <target>キャッシュのフラッシュ（ディスク書き込み）</target>
+        <target>Cache Flush (write on disk)</target>
       </trans-unit>
       <trans-unit id="16" resname="HDI2_TxtWriteWholeCache">
         <source>Write whole cache content on disk</source>
-        <target>キャッシュをディスクに書き込む</target>
+        <target>Write whole cache content on disk</target>
       </trans-unit>
       <trans-unit id="17" resname="AlertDone">
         <source>Done!</source>
-        <target>やりました!</target>
+        <target>Done!</target>
       </trans-unit>
       <trans-unit id="18" resname="HDI2_TxtWriteAndFree">
         <source>Write whole cache content on disk and free </source>
-        <target>キャッシュをディスクに書き込んだ後</target>
+        <target>Write whole cache content on disk and free </target>
       </trans-unit>
       <trans-unit id="19" resname="HDI2_TxtBytesFromCache">
         <source>bytes from cache memory</source>
-        <target>バイトを解放する</target>
+        <target>bytes from cache memory</target>
       </trans-unit>
       <trans-unit id="20" resname="HDI2_TxtCacheInformation">
         <source>Cache information</source>
-        <target>キャッシュ情報</target>
+        <target>Cache information</target>
       </trans-unit>
       <trans-unit id="21" resname="HDI2_LblCacheDetails">
         <source>Cache Details:</source>
-        <target>詳しい情報：</target>
+        <target>Cache Details:</target>
       </trans-unit>
       <trans-unit id="22" resname="HDI2_LblUnloadMinSize">
         <source>Unload Min Size:</source>
-        <target>最小解放サイズ：</target>
+        <target>Unload Min Size:</target>
       </trans-unit>
       <trans-unit id="23" resname="HDI2_LblFlushPeriodicity">
         <source>Flush Periodicity:</source>
-        <target>フラッシュ間隔：</target>
+        <target>Flush Periodicity:</target>
       </trans-unit>
       <trans-unit id="24" resname="HDI2_LblMBytes">
         <source>MBytes</source>
-        <target>メガバイト</target>
+        <target>MBytes</target>
       </trans-unit>
       <trans-unit id="25" resname="HDI2_LblSeconds">
         <source>s</source>
-        <target>秒</target>
+        <target>s</target>
       </trans-unit>
       <trans-unit id="26" resname="HDI2_TxtNotAvailable32bit">
         <source>Not available in 32-bit</source>
-        <target>32-bit版では利用できません。</target>
+        <target>Not available in 32-bit</target>
       </trans-unit>
       <trans-unit id="27" resname="HDI2_TxtValueLostAtRestart">
         <source>The new value will be lost at next restart</source>
-        <target>再起動時にこの設定値はリセットされます。</target>
+        <target>The new value will be lost at next restart</target>
       </trans-unit>
       <trans-unit id="28" resname="AlertCacheSizeUpdated">
         <source>Cache size successfully updated</source>
-        <target>キャッシュサイズを更新しました。</target>
+        <target>Cache size successfully updated</target>
       </trans-unit>
       <trans-unit id="29" resname="AlertMinSizeUpdated">
         <source>Minimum size to start to free objects in memory successfully updated</source>
-        <target>キャッシュから解放するメモリの最小サイズを更新しました。</target>
+        <target>Minimum size to start to free objects in memory successfully updated</target>
       </trans-unit>
       <trans-unit id="30" resname="AlertFlushPeriodicityUpdated">
         <source>Cache flush periodicity successfully updated</source>
-        <target>キャッシュをディスクに書き込む間隔を更新しました。</target>
+        <target>Cache flush periodicity successfully updated</target>
       </trans-unit>
     </body>
   </file>
