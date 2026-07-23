@@ -1,8 +1,8 @@
 //%attributes = {"invisible":true}
-SET MENU BAR:C67(1)
+#DECLARE($action : Text)
+var $window : Integer
 
-C_TEXT:C284($1)
-C_LONGINT:C283($window)
+SET MENU BAR:C67(1)
 
 Case of 
 	: (Count parameters:C259=0)
@@ -12,7 +12,7 @@ Case of
 	Else 
 		
 		Case of 
-			: ($1="Title")
+			: ($action="Title")
 				
 				$window:=Open form window:C675("HDI"; \
 					Plain form window:K39:10; \
@@ -26,7 +26,7 @@ Case of
 				
 				CLOSE WINDOW:C154($window)
 				
-			: ($1="HDI")
+			: ($action="HDI")
 				
 				$window:=Open form window:C675("HDI2"; \
 					Plain form window:K39:10; \
