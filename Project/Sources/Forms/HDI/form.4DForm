@@ -31,7 +31,7 @@
 					"height": 38,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": ":xliff:... get information about cache?"
+					"text": ":xliff:HDI_TxtInfoQuestion"
 				},
 				"Picture3": {
 					"type": "picture",
@@ -49,7 +49,7 @@
 					"width": 90,
 					"height": 20,
 					"action": "accept",
-					"text": ":xliff:Demo",
+					"text": ":xliff:HDI_BtnDemo",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [
@@ -67,7 +67,7 @@
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": ":xliff:Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+					"text": ":xliff:HDI_TxtSorryWarning"
 				},
 				"TxtInfo1": {
 					"type": "text",
@@ -77,7 +77,7 @@
 					"height": 20,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": ":xliff:How Do I..."
+					"text": ":xliff:HDI_TxtHowDoI"
 				},
 				"TxtVersion": {
 					"type": "text",
@@ -87,7 +87,7 @@
 					"height": 16,
 					"fontFamily": "Lucida Grande",
 					"fontSize": 12,
-					"text": ":xliff:(4D v16 and above...)"
+					"text": ":xliff:HDI_TxtVersionNote"
 				},
 				"TxtSorry2": {
 					"type": "text",
@@ -98,7 +98,7 @@
 					"visibility": "hidden",
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": ":xliff:Sorry"
+					"text": ":xliff:HDI_TxtSorryMessage"
 				}
 			}
 		}
