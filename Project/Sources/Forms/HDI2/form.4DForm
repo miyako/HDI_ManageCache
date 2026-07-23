@@ -4,6 +4,7 @@
 	"windowMinHeight": 540,
 	"width": 720,
 	"height": 540,
+	"menuBar": "Menu Bar #1",
 	"markerHeader": 15,
 	"markerBody": 200,
 	"markerBreak": 220,
@@ -19,6 +20,7 @@
 		"onPluginArea",
 		"onDataChange",
 		"onDragOver",
+		"onUnload",
 		"onTimer",
 		"onAfterKeystroke",
 		"onAfterEdit",
@@ -46,8 +48,8 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Demo"
+						":xliff:Info",
+						":xliff:Demo"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -86,10 +88,10 @@
 				"Text": {
 					"type": "text",
 					"top": 90,
-					"left": 122,
-					"width": 40,
+					"left": 102,
+					"width": 60,
 					"height": 17,
-					"text": "Size:"
+					"text": ":xliff:Size:"
 				},
 				"Variable": {
 					"type": "input",
@@ -111,10 +113,11 @@
 					"top": 86,
 					"left": 580,
 					"width": 106,
-					"height": 21,
-					"text": "Update",
+					"height": 22,
+					"text": ":xliff:Update",
 					"fontFamily": "System Font",
 					"fontSize": 14,
+					"focusable": false,
 					"method": "ObjectMethods/64_Button.4dm",
 					"events": [
 						"onClick"
@@ -124,11 +127,11 @@
 					"type": "text",
 					"top": 48,
 					"left": 32,
-					"width": 187,
+					"width": 207,
 					"height": 22,
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "Cache information"
+					"text": ":xliff:Cache information"
 				},
 				"Line": {
 					"type": "line",
@@ -154,19 +157,20 @@
 					"type": "text",
 					"top": 190,
 					"left": 34,
-					"width": 101,
+					"width": 121,
 					"height": 17,
-					"text": "Cache Details:"
+					"text": ":xliff:Cache Details:"
 				},
 				"64_Button2": {
 					"type": "button",
 					"top": 184,
 					"left": 580,
 					"width": 106,
-					"height": 21,
-					"text": "Get",
+					"height": 22,
+					"text": ":xliff:Get",
 					"fontFamily": "System Font",
 					"fontSize": 14,
+					"focusable": false,
 					"method": "ObjectMethods/64_Button2.4dm",
 					"events": [
 						"onClick"
@@ -178,7 +182,7 @@
 					"left": 46,
 					"width": 146,
 					"height": 17,
-					"text": "Flush Periodicity:"
+					"text": ":xliff:Flush Periodicity:"
 				},
 				"Variable2": {
 					"type": "input",
@@ -200,10 +204,11 @@
 					"top": 149,
 					"left": 580,
 					"width": 106,
-					"height": 21,
-					"text": "Update",
+					"height": 22,
+					"text": ":xliff:Update",
 					"fontFamily": "System Font",
 					"fontSize": 14,
+					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
@@ -217,7 +222,7 @@
 					"height": 17,
 					"stroke": "#1E90FF",
 					"fontStyle": "italic",
-					"text": "The new value will be lost at next restart"
+					"text": ":xliff:The new value will be lost at next restart"
 				},
 				"Text5": {
 					"type": "text",
@@ -225,7 +230,7 @@
 					"left": 49,
 					"width": 117,
 					"height": 17,
-					"text": "Unload Min Size:"
+					"text": ":xliff:Unload Min Size:"
 				},
 				"Variable3": {
 					"type": "input",
@@ -247,10 +252,11 @@
 					"top": 117,
 					"left": 580,
 					"width": 106,
-					"height": 21,
-					"text": "Update",
+					"height": 22,
+					"text": ":xliff:Update",
 					"fontFamily": "System Font",
 					"fontSize": 14,
+					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
@@ -259,23 +265,23 @@
 				"WarningText1": {
 					"type": "text",
 					"top": 88,
-					"left": 422,
-					"width": 147,
+					"left": 382,
+					"width": 187,
 					"height": 17,
 					"stroke": "#F67713",
 					"fontWeight": "bold",
 					"fontStyle": "italic",
-					"text": "Not available in 32-bit"
+					"text": ":xliff:Not available in 32-bit"
 				},
 				"Text6": {
 					"type": "text",
 					"top": 426,
 					"left": 32,
-					"width": 313,
+					"width": 413,
 					"height": 22,
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "Cache Flush (write on disk)"
+					"text": ":xliff:Cache Flush (write on disk)"
 				},
 				"Line1": {
 					"type": "line",
@@ -289,10 +295,11 @@
 					"top": 492,
 					"left": 580,
 					"width": 106,
-					"height": 21,
-					"text": "Flush",
+					"height": 22,
+					"text": ":xliff:Flush",
 					"fontFamily": "System Font",
 					"fontSize": 14,
+					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
@@ -303,10 +310,11 @@
 					"top": 462,
 					"left": 580,
 					"width": 106,
-					"height": 21,
-					"text": "Flush",
+					"height": 22,
+					"text": ":xliff:Flush",
 					"fontFamily": "System Font",
 					"fontSize": 14,
+					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
 						"onClick"
@@ -318,7 +326,7 @@
 					"left": 36,
 					"width": 230,
 					"height": 17,
-					"text": "Write whole cache content on disk"
+					"text": ":xliff:Write whole cache content on disk"
 				},
 				"Text9": {
 					"type": "text",
@@ -326,7 +334,7 @@
 					"left": 36,
 					"width": 450,
 					"height": 17,
-					"text": "Write whole cache content on disk and free "
+					"text": ":xliff:Write whole cache content on disk and free "
 				},
 				"Text10": {
 					"type": "text",
@@ -334,7 +342,7 @@
 					"left": 370,
 					"width": 163,
 					"height": 17,
-					"text": "bytes from cache memory"
+					"text": ":xliff:bytes from cache memory"
 				},
 				"Variable4": {
 					"type": "input",
@@ -354,29 +362,29 @@
 				"WarningText2": {
 					"type": "text",
 					"top": 186,
-					"left": 422,
-					"width": 147,
+					"left": 382,
+					"width": 187,
 					"height": 17,
 					"stroke": "#F67713",
 					"fontWeight": "bold",
 					"fontStyle": "italic",
-					"text": "Not available in 32-bit"
+					"text": ":xliff:Not available in 32-bit"
 				},
 				"Text11": {
 					"type": "text",
 					"top": 91,
 					"left": 245,
-					"width": 52,
+					"width": 72,
 					"height": 16,
-					"text": "MBytes"
+					"text": ":xliff:MBytes"
 				},
 				"Text12": {
 					"type": "text",
 					"top": 122,
 					"left": 246,
-					"width": 52,
+					"width": 72,
 					"height": 16,
-					"text": "MBytes"
+					"text": ":xliff:MBytes"
 				},
 				"Text13": {
 					"type": "text",
@@ -384,22 +392,9 @@
 					"left": 246,
 					"width": 52,
 					"height": 18,
-					"text": "s"
+					"text": ":xliff:s"
 				}
-			},
-			"entryOrder": [
-				"Variable",
-				"64_Button",
-				"64_Result",
-				"64_Button2",
-				"Variable2",
-				"Button1",
-				"Variable3",
-				"Button4",
-				"Button6",
-				"Button7",
-				"Variable4"
-			]
+			}
 		},
 		null
 	]

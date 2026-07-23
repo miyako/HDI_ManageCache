@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <file datatype="x-STR#" original="undefined" product-version="v16" source-language="en-US" target-language="ja">
+    <header>
+      <note/>
+    </header>
+    <body>
+      <group resname="HDI">
+        <!-- common stuff -->
+        <trans-unit resname="Quit 4D">
+          <source>Quit 4D</source>
+          <target>終了する</target>
+        </trans-unit>
+        <trans-unit resname="Demo">
+          <source>Demo</source>
+          <target>スタート</target>
+        </trans-unit>
+        <trans-unit resname="(4D v16 and above...)">
+          <source>(4D v16 and above...)</source>
+          <target>(4D v16 以降...)</target>
+        </trans-unit>
+        <trans-unit resname="How Do I...">
+          <source>How Do I...</source>
+          <target>教えて...</target>
+        </trans-unit>
+        <trans-unit resname="Demo...">
+          <source>Demo...</source>
+          <target>デモンストレーション...</target>
+        </trans-unit>
+        <trans-unit resname="The plugin xxx is mandatory">
+          <source>The plugin xxx is mandatory</source>
+          <target>プラグインxxxが必要です。</target>
+        </trans-unit>
+        <trans-unit resname="Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.">
+          <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+          <target>このHDIをデザインモードで開いてはなりません。開いてしまった場合，フォームやメソッドが不完全になってしまう恐れがあります。</target>
+        </trans-unit>
+        <trans-unit resname="Sorry">
+          <source>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</source>
+          <target>申し訳ありません。この&quot;How do I...&quot; (HDI) &#x0D;サンプルは，より新しいバージョンの4D（v16以降）で開かなければなりません。</target>
+        </trans-unit>
+        <!-- specific stuff -->
+        <trans-unit resname="Info">
+          <source>Info</source>
+          <target>説明</target>
+        </trans-unit>
+        <trans-unit resname="Demo">
+          <source>Demo</source>
+          <target>デモ画面</target>
+        </trans-unit>
+        <trans-unit resname="... get information about cache?">
+          <source>... get information about cache?</source>
+          <target>... キャッシュ情報を取得するには?</target>
+        </trans-unit>
+        <trans-unit resname="Update">
+          <source>Update</source>
+          <target>更新</target>
+        </trans-unit>
+        <trans-unit resname="Get">
+          <source>Get</source>
+          <target>取得</target>
+        </trans-unit>
+        <trans-unit resname="Flush">
+          <source>Flush</source>
+          <target>実行</target>
+        </trans-unit>
+        <trans-unit resname="Cache Flush (write on disk)">
+          <source>Cache Flush (write on disk)</source>
+          <target>キャッシュのフラッシュ（ディスク書き込み）</target>
+        </trans-unit>
+        <trans-unit resname="Write whole cache content on disk">
+          <source>Write whole cache content on disk</source>
+          <target>キャッシュをディスクに書き込む</target>
+        </trans-unit>
+        <trans-unit resname="Done!">
+          <source>Done!</source>
+          <target>やりました!</target>
+        </trans-unit>
+        <trans-unit resname="Write whole cache content on disk and free ">
+          <source>Write whole cache content on disk and free </source>
+          <target>キャッシュをディスクに書き込んだ後</target>
+        </trans-unit>
+        <trans-unit resname="bytes from cache memory">
+          <source>bytes from cache memory</source>
+          <target>バイトを解放する</target>
+        </trans-unit>
+        <trans-unit resname="Cache information">
+          <source>Cache information</source>
+          <target>キャッシュ情報</target>
+        </trans-unit>
+        <trans-unit resname="Cache Details:">
+          <source>Cache Details:</source>
+          <target>詳しい情報：</target>
+        </trans-unit>
+        <trans-unit resname="Size:">
+          <source>Size:</source>
+          <target>サイズ：</target>
+        </trans-unit>
+        <trans-unit resname="Unload Min Size:">
+          <source>Unload Min Size:</source>
+          <target>最小解放サイズ：</target>
+        </trans-unit>
+        <trans-unit resname="Flush Periodicity:">
+          <source>Flush Periodicity:</source>
+          <target>フラッシュ間隔：</target>
+        </trans-unit>
+        <trans-unit resname="MBytes">
+          <source>MBytes</source>
+          <target>メガバイト</target>
+        </trans-unit>
+        <trans-unit resname="s">
+          <source>s</source>
+          <target>秒</target>
+        </trans-unit>
+        <trans-unit resname="Not available in 32-bit">
+          <source>Not available in 32-bit</source>
+          <target>32-bit版では利用できません。</target>
+        </trans-unit>
+        <trans-unit resname="The new value will be lost at next restart">
+          <source>The new value will be lost at next restart</source>
+          <target>再起動時にこの設定値はリセットされます。</target>
+        </trans-unit>
+        <trans-unit resname="Cache size successfully updated">
+          <source>Cache size successfully updated</source>
+          <target>キャッシュサイズを更新しました。</target>
+        </trans-unit>
+        <trans-unit resname="Minimum size to start to free objects in memory successfully updated">
+          <source>Minimum size to start to free objects in memory successfully updated</source>
+          <target>キャッシュから解放するメモリの最小サイズを更新しました。</target>
+        </trans-unit>
+        <trans-unit resname="Cache flush periodicity successfully updated">
+          <source>Cache flush periodicity successfully updated</source>
+          <target>キャッシュをディスクに書き込む間隔を更新しました。</target>
+        </trans-unit>
+
+
+
+
+      </group>
+    </body>
+  </file>
+</xliff>

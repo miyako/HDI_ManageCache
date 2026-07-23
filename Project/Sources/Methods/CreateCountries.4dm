@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 If (Records in table:C83([Countries:2])=0)
 	C_TEXT:C284($RootPath_t)
 	C_TEXT:C284($XMLPath_t)

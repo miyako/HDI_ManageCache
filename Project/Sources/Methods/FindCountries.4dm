@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 C_TEXT:C284($1)
 C_OBJECT:C1216($0)
 

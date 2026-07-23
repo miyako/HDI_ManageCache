@@ -7,10 +7,4 @@ Else
 	SET DATABASE PARAMETER:C642(Cache unload minimum size:K37:60; vMinUnload*1024*1024)
 End if 
 
-ALERT:C41("Minimum size to start to free objects in memory successfully updated")
-
-
-
-
-
-
+ALERT:C41(Localized string:C991("Minimum size to start to free objects in memory successfully updated"))

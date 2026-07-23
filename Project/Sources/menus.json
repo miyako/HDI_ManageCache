@@ -22,8 +22,10 @@
 			"title": ":xliff:CommonMenuFile",
 			"items": [
 				{
-					"title": "Demo...",
-					"method": "00_Start"
+					"title": ":xliff:Demo...",
+					"method": "00_Start",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
 				},
 				{
 					"title": "Item 2",

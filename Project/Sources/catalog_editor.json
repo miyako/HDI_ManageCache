@@ -1,0 +1,82 @@
+{
+	"tables": {
+		"Countries": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "216.421875",
+				"top": "41.34765625",
+				"width": "203",
+				"height": "367"
+			},
+			"displayable_fields_count": 15,
+			"fields_ordering": 2,
+			"fields": {
+				"Flag": {
+					"position": 15
+				},
+				"InhabitantPosition": {
+					"position": 14
+				},
+				"Inhabitants": {
+					"position": 13
+				},
+				"AreaPosition": {
+					"position": 12
+				},
+				"Area": {
+					"position": 11
+				},
+				"CallingCode": {
+					"position": 10
+				},
+				"TLD": {
+					"position": 9
+				},
+				"TimeZone": {
+					"position": 8
+				},
+				"Currency": {
+					"position": 7
+				},
+				"Anthem": {
+					"position": 6
+				},
+				"Language": {
+					"position": 5
+				},
+				"Capital": {
+					"position": 4
+				},
+				"Name": {
+					"position": 3
+				},
+				"ShortName": {
+					"position": 2
+				},
+				"ID": {
+					"position": 1
+				}
+			}
+		},
+		"Infos": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "40",
+				"top": "40",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6
+		}
+	}
+}

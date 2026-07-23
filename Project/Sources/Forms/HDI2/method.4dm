@@ -3,9 +3,14 @@ C_REAL:C285(vSize; vMinUnload; vValToFree)
 C_LONGINT:C283(vFlushPer)
 C_TEXT:C284(vCacheInfos)
 
-
 Case of 
 	: (Form event code:C388=On Load:K2:1)
+		
+		If (Get menu bar reference:C979="")
+			SET MENU BAR:C67(1)
+		End if 
+		
+		DISABLE MENU ITEM:C150(Get menu bar reference:C979; 1; Current process:C322)
 		
 		// Load text to show in "Info" tab
 		ALL RECORDS:C47([Infos:1])
@@ -37,5 +42,8 @@ Case of
 		// Init
 		vValToFree:=0
 		
+	: (Form event code:C388=On Unload:K2:2)
+		
+		ENABLE MENU ITEM:C149(Get menu bar reference:C979; 1; Current process:C322)
+		
 End case 
-
