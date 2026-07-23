@@ -48,8 +48,8 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						":xliff:Info",
-						":xliff:Demo"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabDemo"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -91,7 +91,7 @@
 					"left": 102,
 					"width": 60,
 					"height": 17,
-					"text": ":xliff:Size:"
+					"text": ":xliff:HDI2_LblSize"
 				},
 				"Variable": {
 					"type": "input",
@@ -114,7 +114,7 @@
 					"left": 580,
 					"width": 106,
 					"class": "default",
-					"text": ":xliff:Update",
+					"text": ":xliff:HDI2_BtnUpdate",
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"focusable": false,
@@ -131,7 +131,7 @@
 					"height": 22,
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": ":xliff:Cache information"
+					"text": ":xliff:HDI2_TxtCacheInformation"
 				},
 				"Line": {
 					"type": "line",
@@ -161,7 +161,7 @@
 					"left": 34,
 					"width": 121,
 					"height": 17,
-					"text": ":xliff:Cache Details:"
+					"text": ":xliff:HDI2_LblCacheDetails"
 				},
 				"64_Button2": {
 					"type": "button",
@@ -169,7 +169,7 @@
 					"left": 580,
 					"width": 106,
 					"class": "default",
-					"text": ":xliff:Get",
+					"text": ":xliff:HDI2_BtnGet",
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"focusable": false,
@@ -184,7 +184,7 @@
 					"left": 46,
 					"width": 146,
 					"height": 17,
-					"text": ":xliff:Flush Periodicity:"
+					"text": ":xliff:HDI2_LblFlushPeriodicity"
 				},
 				"Variable2": {
 					"type": "input",
@@ -207,7 +207,7 @@
 					"left": 580,
 					"width": 106,
 					"class": "default",
-					"text": ":xliff:Update",
+					"text": ":xliff:HDI2_BtnUpdate",
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"focusable": false,
@@ -224,7 +224,7 @@
 					"height": 17,
 					"class": "link-text",
 					"fontStyle": "italic",
-					"text": ":xliff:The new value will be lost at next restart"
+					"text": ":xliff:HDI2_TxtValueLostAtRestart"
 				},
 				"Text5": {
 					"type": "text",
@@ -232,7 +232,7 @@
 					"left": 49,
 					"width": 117,
 					"height": 17,
-					"text": ":xliff:Unload Min Size:"
+					"text": ":xliff:HDI2_LblUnloadMinSize"
 				},
 				"Variable3": {
 					"type": "input",
@@ -255,7 +255,7 @@
 					"left": 580,
 					"width": 106,
 					"class": "default",
-					"text": ":xliff:Update",
+					"text": ":xliff:HDI2_BtnUpdate",
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"focusable": false,
@@ -273,7 +273,7 @@
 					"class": "warning-text",
 					"fontWeight": "bold",
 					"fontStyle": "italic",
-					"text": ":xliff:Not available in 32-bit"
+					"text": ":xliff:HDI2_TxtNotAvailable32bit"
 				},
 				"Text6": {
 					"type": "text",
@@ -283,7 +283,7 @@
 					"height": 22,
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": ":xliff:Cache Flush (write on disk)"
+					"text": ":xliff:HDI2_LblCacheFlushTitle"
 				},
 				"Line1": {
 					"type": "line",
@@ -298,7 +298,7 @@
 					"left": 580,
 					"width": 106,
 					"class": "default",
-					"text": ":xliff:Flush",
+					"text": ":xliff:HDI2_BtnFlush",
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"focusable": false,
@@ -313,7 +313,7 @@
 					"left": 580,
 					"width": 106,
 					"class": "default",
-					"text": ":xliff:Flush",
+					"text": ":xliff:HDI2_BtnFlush",
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"focusable": false,
@@ -328,7 +328,7 @@
 					"left": 36,
 					"width": 230,
 					"height": 17,
-					"text": ":xliff:Write whole cache content on disk"
+					"text": ":xliff:HDI2_TxtWriteWholeCache"
 				},
 				"Text9": {
 					"type": "text",
@@ -336,7 +336,7 @@
 					"left": 36,
 					"width": 450,
 					"height": 17,
-					"text": ":xliff:Write whole cache content on disk and free "
+					"text": ":xliff:HDI2_TxtWriteAndFree"
 				},
 				"Text10": {
 					"type": "text",
@@ -344,7 +344,7 @@
 					"left": 370,
 					"width": 163,
 					"height": 17,
-					"text": ":xliff:bytes from cache memory"
+					"text": ":xliff:HDI2_TxtBytesFromCache"
 				},
 				"Variable4": {
 					"type": "input",
@@ -370,7 +370,7 @@
 					"class": "warning-text",
 					"fontWeight": "bold",
 					"fontStyle": "italic",
-					"text": ":xliff:Not available in 32-bit"
+					"text": ":xliff:HDI2_TxtNotAvailable32bit"
 				},
 				"Text11": {
 					"type": "text",
@@ -378,7 +378,7 @@
 					"left": 245,
 					"width": 72,
 					"height": 16,
-					"text": ":xliff:MBytes"
+					"text": ":xliff:HDI2_LblMBytes"
 				},
 				"Text12": {
 					"type": "text",
@@ -386,7 +386,7 @@
 					"left": 246,
 					"width": 72,
 					"height": 16,
-					"text": ":xliff:MBytes"
+					"text": ":xliff:HDI2_LblMBytes"
 				},
 				"Text13": {
 					"type": "text",
@@ -394,7 +394,7 @@
 					"left": 246,
 					"width": 52,
 					"height": 18,
-					"text": ":xliff:s"
+					"text": ":xliff:HDI2_LblSeconds"
 				}
 			}
 		},
