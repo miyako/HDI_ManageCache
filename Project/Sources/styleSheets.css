@@ -1,0 +1,29 @@
+/* Cross-platform styles: dark mode colour schemes for branded (non-automatic) colours. */
+
+@media (prefers-color-scheme: light) {
+	.link-text {
+		stroke: #1E90FF;
+	}
+
+	.warning-text {
+		stroke: #F67713;
+	}
+
+	.error-text {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.link-text {
+		stroke: #5CB8FF;
+	}
+
+	.warning-text {
+		stroke: #FFA552;
+	}
+
+	.error-text {
+		stroke: #FF6347;
+	}
+}
