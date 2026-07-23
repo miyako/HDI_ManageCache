@@ -12,9 +12,11 @@ Case of
 		
 		DISABLE MENU ITEM:C150(Get menu bar reference:C979; 1; Current process:C322)
 		
-		// Load text to show in "Info" tab
-		ALL RECORDS:C47([Infos:1])
-		GOTO RECORD:C242([Infos:1]; 0)
+		var $json : Collection
+		$json:=JSON Parse:C1218(File:C1566(Localized document path:C1105("Infos.json"); fk platform path:K87:2).getText())
+		
+		var $Infos : Object
+		Form:C1466.Infos:=$json.first()
 		
 		// Check 32-bit or 64-bit
 		If (Version type:C495 ?? 64 bit version:K5:25)

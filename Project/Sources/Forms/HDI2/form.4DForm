@@ -66,7 +66,7 @@
 					"left": 40,
 					"width": 635,
 					"height": 449,
-					"dataSource": "[Infos:1]TextInfo:2",
+					"dataSource": "Form:C1466.Infos.TextInfo",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -397,5 +397,9 @@
 			}
 		},
 		null
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }
