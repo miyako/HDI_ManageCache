@@ -47,3 +47,7 @@ The startup dialog (5.6M input, 70 turns) and dark mode (8.5M input, 76 turns) s
 **Recommendation:** Continue using Sonnet 5 as the default. Haiku 4.5 is viable for trivial property edits (method visibility), simple rule-driven migrations (menu standard actions), and mechanical find-and-replace refactors (c_* declarations) -- but expect higher turn counts.
 
 ## Screenshots
+
+<img width="720" height="572" alt="Screenshot 2026-07-23 at 13 20 17" src="https://github.com/user-attachments/assets/7b0caedf-9df4-4cce-bed1-dc542158b1b3" />
+<img width="360" height="352" alt="Screenshot 2026-07-23 at 13 20 14" src="https://github.com/user-attachments/assets/2c169183-2c5d-4213-a7fe-c55bcb8d8f45" />
+<img width="720" height="572" alt="Screenshot 2026-07-23 at 13 20 28" src="https://github.com/user-attachments/assets/fb8a5c63-1c23-4b7c-8076-8ba821a97ccf" />
