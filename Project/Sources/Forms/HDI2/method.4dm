@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 C_BOOLEAN:C305(ThisIs64)
 C_REAL:C285(vSize; vMinUnload; vValToFree)
 C_LONGINT:C283(vFlushPer)

@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 
 If (ThisIs64=True:C214)
 	// SET CACHE SIZE is available in 64-bit only

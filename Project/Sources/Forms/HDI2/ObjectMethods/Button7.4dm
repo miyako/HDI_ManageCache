@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 //FLUSH BUFFER command has been renamed to FLUSH CACHE
 FLUSH CACHE:C297
 
