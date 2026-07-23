@@ -2,41 +2,6 @@
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="HDI_ManageCache" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="en">
 	<schema name="DEFAULT_SCHEMA"/>
-	<table name="Infos" uuid="8343538482B84619A53BA392AAE731FA" id="1">
-		<field name="ID" uuid="18300C344B16469DA7ACDB081C310419" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
-		<field name="TextInfo" uuid="441C03F3A0464C82B85F234D7FBCCDD3" type="10" never_null="true" id="2"/>
-		<primary_key field_name="ID" field_uuid="18300C344B16469DA7ACDB081C310419"/>
-		<table_extra input_form="InfoInput" output_form="InfoOutput"/>
-	</table>
-	<table name="Countries" uuid="C16EF21727534412909FDD543A93C419" id="2">
-		<field name="ID" uuid="6180E482CBB2418E8E310842FC0BB5E3" type="4" unique="true" autosequence="true" id="1" hide_in_REST="true"/>
-		<field name="ShortName" uuid="78A6CBBB71344E60A04778AAD0FE02E0" type="10" limiting_length="255" never_null="true" id="2"/>
-		<field name="Name" uuid="3E2357796956441598918344288214C3" type="10" limiting_length="255" never_null="true" id="3"/>
-		<field name="Capital" uuid="2C7A8073353D4F989FF94B5DAECE0434" type="10" limiting_length="255" never_null="true" id="4"/>
-		<field name="Language" uuid="B93C2C665DBF4AEB97848872E775DE82" type="10" limiting_length="255" never_null="true" id="5"/>
-		<field name="Anthem" uuid="DA9F3A8EFF3F412A890AD3A870A24333" type="10" limiting_length="255" never_null="true" id="6" hide_in_REST="true"/>
-		<field name="Currency" uuid="9B70C7234D7748F29961C917C9932D62" type="10" limiting_length="255" never_null="true" id="7" hide_in_REST="true"/>
-		<field name="TimeZone" uuid="C4A969E7E56E43A08D366DE8124B6825" type="10" limiting_length="255" never_null="true" id="8" hide_in_REST="true"/>
-		<field name="TLD" uuid="CC6E571E57DF4A1092BE613C2691B96C" type="10" limiting_length="255" never_null="true" id="9" hide_in_REST="true"/>
-		<field name="CallingCode" uuid="59A580D567DB465BA63B725A25F70960" type="10" limiting_length="255" never_null="true" id="10" hide_in_REST="true"/>
-		<field name="Area" uuid="03BB2D321A5F4950A54C24B0730392D1" type="4" never_null="true" id="11"/>
-		<field name="AreaPosition" uuid="A24B42F792114DDA950D578511E3023E" type="4" never_null="true" id="12"/>
-		<field name="Inhabitants" uuid="987D65099CFE4E47AE74C22699852A2E" type="4" never_null="true" id="13"/>
-		<field name="InhabitantPosition" uuid="5E6F1D6DF5424299898CA0A13F7EAE04" type="4" never_null="true" id="14" hide_in_REST="true"/>
-		<field name="Flag" uuid="334D698A53594AC9B6D865CA8DA9DB2B" type="12" never_null="true" id="15" hide_in_REST="true"/>
-		<primary_key field_name="ID" field_uuid="6180E482CBB2418E8E310842FC0BB5E3"/>
-		<table_extra input_form="Input" output_form="Output"/>
-	</table>
-	<index kind="regular" unique_keys="true" uuid="01E04F98BCFF4FCB9FEF17663D08D0AB" type="1">
-		<field_ref uuid="6180E482CBB2418E8E310842FC0BB5E3" name="ID">
-			<table_ref uuid="C16EF21727534412909FDD543A93C419" name="Countries"/>
-		</field_ref>
-	</index>
-	<index kind="regular" unique_keys="true" uuid="6E045B5ED3214BCB8A7A2BA4BF3B40C6" type="7">
-		<field_ref uuid="18300C344B16469DA7ACDB081C310419" name="ID">
-			<table_ref uuid="8343538482B84619A53BA392AAE731FA" name="Infos"/>
-		</field_ref>
-	</index>
 	<base_extra data_file_path=":ManageCache.4DD" package_name="HDI_ManageCache 2" structure_file_name="ManageCache">
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>
