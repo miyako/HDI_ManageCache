@@ -263,7 +263,7 @@
 					"dataSource": "[Countries:2]ShortName:2",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -290,7 +290,7 @@
 					"dataSource": "[Countries:2]Name:3",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -317,7 +317,7 @@
 					"dataSource": "[Countries:2]Capital:4",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -344,7 +344,7 @@
 					"dataSource": "[Countries:2]Language:5",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -371,7 +371,7 @@
 					"dataSource": "[Countries:2]Anthem:6",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -398,7 +398,7 @@
 					"dataSource": "[Countries:2]Currency:7",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -425,7 +425,7 @@
 					"dataSource": "[Countries:2]TimeZone:8",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -452,7 +452,7 @@
 					"dataSource": "[Countries:2]TLD:9",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -479,7 +479,7 @@
 					"dataSource": "[Countries:2]CallingCode:10",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -507,7 +507,7 @@
 					"dataSourceTypeHint": "integer",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -535,7 +535,7 @@
 					"dataSourceTypeHint": "integer",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -563,7 +563,7 @@
 					"dataSourceTypeHint": "integer",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -591,7 +591,7 @@
 					"dataSourceTypeHint": "integer",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -613,7 +613,7 @@
 					"top": 2,
 					"left": 2940,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter2": {
 					"type": "splitter",
@@ -632,7 +632,7 @@
 					"top": 2,
 					"left": 2861,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter3": {
 					"type": "splitter",
@@ -651,7 +651,7 @@
 					"top": 2,
 					"left": 2773,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter4": {
 					"type": "splitter",
@@ -670,7 +670,7 @@
 					"top": 2,
 					"left": 2705,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter5": {
 					"type": "splitter",
@@ -689,7 +689,7 @@
 					"top": 2,
 					"left": 2413,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter6": {
 					"type": "splitter",
@@ -708,7 +708,7 @@
 					"top": 2,
 					"left": 2121,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter7": {
 					"type": "splitter",
@@ -727,7 +727,7 @@
 					"top": 2,
 					"left": 1829,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter8": {
 					"type": "splitter",
@@ -746,7 +746,7 @@
 					"top": 2,
 					"left": 1537,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter9": {
 					"type": "splitter",
@@ -765,7 +765,7 @@
 					"top": 2,
 					"left": 1245,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter10": {
 					"type": "splitter",
@@ -784,7 +784,7 @@
 					"top": 2,
 					"left": 953,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter11": {
 					"type": "splitter",
@@ -803,7 +803,7 @@
 					"top": 2,
 					"left": 661,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter12": {
 					"type": "splitter",
@@ -822,7 +822,7 @@
 					"top": 2,
 					"left": 369,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter13": {
 					"type": "splitter",
@@ -841,7 +841,7 @@
 					"top": 2,
 					"left": 77,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter14": {
 					"type": "splitter",

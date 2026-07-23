@@ -47,7 +47,7 @@
 					"top": 280,
 					"left": 250,
 					"width": 90,
-					"height": 20,
+					"class": "default",
 					"action": "accept",
 					"text": ":xliff:HDI_BtnDemo",
 					"focusable": false,

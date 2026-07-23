@@ -113,7 +113,7 @@
 					"top": 86,
 					"left": 580,
 					"width": 106,
-					"height": 22,
+					"class": "default",
 					"text": ":xliff:HDI2_BtnUpdate",
 					"fontFamily": "System Font",
 					"fontSize": 14,
@@ -138,7 +138,7 @@
 					"top": 71,
 					"left": 32,
 					"width": 654,
-					"stroke": "#808080"
+					"stroke": "automatic"
 				},
 				"64_Result": {
 					"type": "input",
@@ -147,6 +147,8 @@
 					"width": 650,
 					"height": 193,
 					"dataSource": "vCacheInfos",
+					"fill": "automatic",
+					"stroke": "automatic",
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -166,7 +168,7 @@
 					"top": 184,
 					"left": 580,
 					"width": 106,
-					"height": 22,
+					"class": "default",
 					"text": ":xliff:HDI2_BtnGet",
 					"fontFamily": "System Font",
 					"fontSize": 14,
@@ -204,7 +206,7 @@
 					"top": 149,
 					"left": 580,
 					"width": 106,
-					"height": 22,
+					"class": "default",
 					"text": ":xliff:HDI2_BtnUpdate",
 					"fontFamily": "System Font",
 					"fontSize": 14,
@@ -220,7 +222,7 @@
 					"left": 324,
 					"width": 272,
 					"height": 17,
-					"stroke": "#1E90FF",
+					"class": "link-text",
 					"fontStyle": "italic",
 					"text": ":xliff:HDI2_TxtValueLostAtRestart"
 				},
@@ -252,7 +254,7 @@
 					"top": 117,
 					"left": 580,
 					"width": 106,
-					"height": 22,
+					"class": "default",
 					"text": ":xliff:HDI2_BtnUpdate",
 					"fontFamily": "System Font",
 					"fontSize": 14,
@@ -268,7 +270,7 @@
 					"left": 382,
 					"width": 187,
 					"height": 17,
-					"stroke": "#F67713",
+					"class": "warning-text",
 					"fontWeight": "bold",
 					"fontStyle": "italic",
 					"text": ":xliff:HDI2_TxtNotAvailable32bit"
@@ -288,14 +290,14 @@
 					"top": 450,
 					"left": 32,
 					"width": 654,
-					"stroke": "#808080"
+					"stroke": "automatic"
 				},
 				"Button6": {
 					"type": "button",
 					"top": 492,
 					"left": 580,
 					"width": 106,
-					"height": 22,
+					"class": "default",
 					"text": ":xliff:HDI2_BtnFlush",
 					"fontFamily": "System Font",
 					"fontSize": 14,
@@ -310,7 +312,7 @@
 					"top": 462,
 					"left": 580,
 					"width": 106,
-					"height": 22,
+					"class": "default",
 					"text": ":xliff:HDI2_BtnFlush",
 					"fontFamily": "System Font",
 					"fontSize": 14,
@@ -365,7 +367,7 @@
 					"left": 382,
 					"width": 187,
 					"height": 17,
-					"stroke": "#F67713",
+					"class": "warning-text",
 					"fontWeight": "bold",
 					"fontStyle": "italic",
 					"text": ":xliff:HDI2_TxtNotAvailable32bit"

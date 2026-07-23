@@ -9,3 +9,17 @@
 	font-weight: bold;
 }
 
+/* macOS Tahoe Liquid Glass: push buttons need >=27px height to render
+   with the rounded translucent variant instead of the flat square one. */
+@media (form-theme: liquid-glass) {
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	button.default {
+		height: 23px;
+	}
+}
+

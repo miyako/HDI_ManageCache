@@ -9,3 +9,17 @@
 	font-weight: bold;
 }
 
+/* Windows Fluent UI: give push buttons a touch more height so they render
+   with the modern rounded style instead of the classic flat one. */
+@media (form-theme: fluent-ui) {
+	button.default {
+		height: 24px;
+	}
+}
+
+@media (form-theme: win-classic) {
+	button.default {
+		height: 22px;
+	}
+}
+
