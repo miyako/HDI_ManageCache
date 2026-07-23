@@ -38,10 +38,12 @@ Each branch represents a distinct modernisation effort, guided by a correspondin
 
 All sessions in this project used Sonnet 5 or Haiku 4.5 -- no Opus was used. This is an appropriate model mix for a project consisting entirely of well-scoped, instruction-driven modernisation tasks.
 
-The method visibility session used Haiku 4.5, which was a good fit for this trivial property-setting task. The remaining sessions used Sonnet 5, appropriate for moderate tasks like XLIFF generation, mechanical refactors, menu migrations, CSS styling, and startup dialog updates.
+The method visibility session used Haiku 4.5, which was a good fit for this trivial property-setting task. The menu bar standard actions session (22 turns, 1.2M input) is also a strong Haiku candidate -- it follows a clear instruction file with simple, rule-driven edits. The c_* declarations modernisation is another potential Haiku task given its mechanical find-and-replace nature.
 
-The startup dialog (5.6M input, 70 turns) and dark mode (8.5M input, 76 turns) sessions had high turn counts, suggesting iterative refinement -- but Sonnet 5 was still the right tier for these instruction-guided tasks.
+Note the turns trade-off: the hide methods session took 50 turns on Haiku, whereas the equivalent task on HDI_MouseUpEvent took only 17 turns on Sonnet 5. Haiku may require more iterations to converge, partially offsetting cost savings.
 
-**Recommendation:** Continue using Sonnet 5 as the default for this project. Haiku 4.5 is viable for trivial property edits (method visibility, simple JSON attribute changes).
+The startup dialog (5.6M input, 70 turns) and dark mode (8.5M input, 76 turns) sessions had high turn counts, suggesting iterative refinement -- but Sonnet 5 was still the right tier for these instruction-guided tasks that involve more judgment.
+
+**Recommendation:** Continue using Sonnet 5 as the default. Haiku 4.5 is viable for trivial property edits (method visibility), simple rule-driven migrations (menu standard actions), and mechanical find-and-replace refactors (c_* declarations) -- but expect higher turn counts.
 
 ## Screenshots
