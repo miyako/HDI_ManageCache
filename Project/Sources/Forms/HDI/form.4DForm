@@ -52,22 +52,10 @@
 					"text": ":xliff:Demo",
 					"focusable": false,
 					"defaultButton": true,
+					"method": "ObjectMethods/BtnDemo.4dm",
 					"events": [
 						"onClick"
 					]
-				},
-				"TxtSorry1": {
-					"type": "text",
-					"top": 207,
-					"left": 20,
-					"width": 320,
-					"height": 77,
-					"visibility": "hidden",
-					"stroke": "#FF4D00",
-					"textAlign": "left",
-					"fontFamily": "Lucida Grande",
-					"fontSize": 13,
-					"text": ":xliff:Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
 				},
 				"TxtInfo1": {
 					"type": "text",
@@ -88,17 +76,6 @@
 					"fontFamily": "Lucida Grande",
 					"fontSize": 12,
 					"text": ":xliff:(4D v16 and above...)"
-				},
-				"TxtSorry2": {
-					"type": "text",
-					"top": 120,
-					"left": 20,
-					"width": 320,
-					"height": 81,
-					"visibility": "hidden",
-					"textAlign": "center",
-					"fontWeight": "bold",
-					"text": ":xliff:Sorry"
 				}
 			}
 		}
@@ -112,12 +89,6 @@
 				"objects": [
 					"TxtInfo2",
 					"TxtInfo1"
-				]
-			},
-			"BAD 4D VERSION": {
-				"objects": [
-					"TxtSorry1",
-					"TxtSorry2"
 				]
 			},
 			"View 4": {},

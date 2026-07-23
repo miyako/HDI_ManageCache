@@ -7,10 +7,6 @@
     <body>
       <group resname="HDI">
         <!-- common stuff -->
-        <trans-unit resname="Quit 4D">
-          <source>Quit 4D</source>
-          <target>終了する</target>
-        </trans-unit>
         <trans-unit resname="Demo">
           <source>Demo</source>
           <target>スタート</target>
@@ -30,14 +26,6 @@
         <trans-unit resname="The plugin xxx is mandatory">
           <source>The plugin xxx is mandatory</source>
           <target>プラグインxxxが必要です。</target>
-        </trans-unit>
-        <trans-unit resname="Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.">
-          <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
-          <target>このHDIをデザインモードで開いてはなりません。開いてしまった場合，フォームやメソッドが不完全になってしまう恐れがあります。</target>
-        </trans-unit>
-        <trans-unit resname="Sorry">
-          <source>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</source>
-          <target>申し訳ありません。この&quot;How do I...&quot; (HDI) &#x0D;サンプルは，より新しいバージョンの4D（v16以降）で開かなければなりません。</target>
         </trans-unit>
         <!-- specific stuff -->
         <trans-unit resname="Info">
