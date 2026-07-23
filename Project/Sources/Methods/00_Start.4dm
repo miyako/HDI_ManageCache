@@ -29,9 +29,9 @@ Else
 	
 	var $options : Object
 	$options:=New object
-	$options.title:=Localized string:C991("How Do I...")
+	$options.title:=Localized string:C991("HDI_TxtHowDoI")
 	$options.blog:="blog.4d.com"
-	$options.info:=Localized string:C991("... get information about cache?")
+	$options.info:=Localized string:C991("HDI_TxtInfoQuestion")
 	
 	var $window : Integer
 	$window:=Open form window:C675("HDI"; \

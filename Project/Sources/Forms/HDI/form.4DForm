@@ -31,7 +31,7 @@
 					"height": 38,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": ":xliff:... get information about cache?"
+					"text": ":xliff:HDI_TxtInfoQuestion"
 				},
 				"Picture3": {
 					"type": "picture",
@@ -49,7 +49,7 @@
 					"width": 90,
 					"height": 20,
 					"action": "accept",
-					"text": ":xliff:Demo",
+					"text": ":xliff:HDI_BtnDemo",
 					"focusable": false,
 					"defaultButton": true,
 					"method": "ObjectMethods/BtnDemo.4dm",
@@ -65,7 +65,7 @@
 					"height": 20,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": ":xliff:How Do I..."
+					"text": ":xliff:HDI_TxtHowDoI"
 				},
 				"TxtVersion": {
 					"type": "text",
@@ -75,7 +75,7 @@
 					"height": 16,
 					"fontFamily": "Lucida Grande",
 					"fontSize": 12,
-					"text": ":xliff:(4D v16 and above...)"
+					"text": ":xliff:HDI_TxtVersionNote"
 				}
 			}
 		}
