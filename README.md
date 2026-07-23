@@ -15,12 +15,12 @@ Each branch represents a distinct modernisation effort, guided by a correspondin
 
 | Branch | Description | Instructions |
 |--------|-------------|--------------|
-| [`miyako-xliff-localisation-fix`](../../tree/miyako-xliff-localisation-fix) | XLIFF localisation fixes | [localisation.instructions.md](.github/copilot/instructions/localisation.instructions.md) |
-| [`miyako-modernize-c-var-syntax`](../../tree/miyako-modernize-c-var-syntax) | Modernize c_* declarations to var syntax | [variable.declarations.instructions.md](.github/copilot/instructions/variable.declarations.instructions.md) |
-| [`miyako-solid-pancake`](../../tree/miyako-solid-pancake) | Migrate menu bar to use standard actions | [menu.instructions.md](.github/copilot/instructions/menu.instructions.md) |
-| [`miyako-psychic-giggle`](../../tree/miyako-psychic-giggle) | Hide methods in Run Method dialog | [method.visibility.instructions.md](.github/copilot/instructions/method.visibility.instructions.md) |
-| [`miyako-supreme-journey`](../../tree/miyako-supreme-journey) | Modernise startup dialog | [startup.instructions.md](.github/copilot/instructions/startup.instructions.md) |
-| [`miyako-dark-mode-liquid-glass-css`](../../tree/miyako-dark-mode-liquid-glass-css) | Dark mode + liquid glass CSS styling | [css.instructions.md](.github/copilot/instructions/css.instructions.md), [tahoe.css.instructions.md](.github/copilot/instructions/tahoe.css.instructions.md) |
+| [`miyako-xliff-localisation-fix`](../../tree/miyako-xliff-localisation-fix) | XLIFF localisation fixes | [localisation.instructions.md](.github/instructions/localisation.instructions.md) |
+| [`miyako-modernize-c-var-syntax`](../../tree/miyako-modernize-c-var-syntax) | Modernize c_* declarations to var syntax | [variable.declarations.instructions.md](.github/instructions/variable.declarations.instructions.md) |
+| [`miyako-solid-pancake`](../../tree/miyako-solid-pancake) | Migrate menu bar to use standard actions | [menu.instructions.md](.github/instructions/menu.instructions.md) |
+| [`miyako-psychic-giggle`](../../tree/miyako-psychic-giggle) | Hide methods in Run Method dialog | [method.visibility.instructions.md](.github/instructions/method.visibility.instructions.md) |
+| [`miyako-supreme-journey`](../../tree/miyako-supreme-journey) | Modernise startup dialog | [startup.instructions.md](.github/instructions/startup.instructions.md) |
+| [`miyako-dark-mode-liquid-glass-css`](../../tree/miyako-dark-mode-liquid-glass-css) | Dark mode + liquid glass CSS styling | [css.instructions.md](.github/instructions/css.instructions.md), [tahoe.css.instructions.md](.github/instructions/tahoe.css.instructions.md) |
 
 ## Copilot Token Usage
 
